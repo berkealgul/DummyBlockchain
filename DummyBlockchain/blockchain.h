@@ -23,7 +23,7 @@ public:
 
     void MineBlock(const uint32_t nDifficulty) 
     {
-        char cstr[7];
+        char cstr[nDifficulty+1];
 
         for (uint32_t i = 0; i < nDifficulty; ++i) 
         {
